@@ -49,20 +49,32 @@
 
     <main class="main_index">
         
-        <section class="carrusel">
-            
-            <div>
-                <img class="carrusel_img" src="./Imagenes/plano-general-bella-arquitectura-casa-moderna.jpg" alt="edificio" >
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div >
-                <img class="carrusel_img" src="./Imagenes/casa.jpg" alt="casa">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imagenes/casa.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/casa2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/casa_diseñoInterior.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-
-            <div >
-                <img class="carrusel_img" src="./Imagenes/casa2.jpg" alt="casa2" >
-            </div>
-        </section> 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
                 
         <section class="intro_historia">
@@ -70,7 +82,6 @@
                 <!-- Introduccion a la historia -->
                 <p>Desde que tengo memoria, siempre estuve rodeado de formas, colores y estructuras que capturaban mi atención y despertaban mi curiosidad. Los juegos de construcción se convirtieron en mis favoritos, y no había día en que no me encontrara dibujando casas y edificios en mis cuadernos escolares. Pero fue un evento en particular el que realmente consolidó mi destino como arquitecto. Recuerdo claramente aquel día de verano cuando tenía apenas nueve años. Mi familia decidió realizar un viaje a una gran ciudad, y entre los muchos lugares que visitamos, había una majestuosa catedral gótica que me dejó maravillado. Sus altas torres apuntaban al cielo, mientras que los intrincados detalles de sus arcos y ventanales parecían cuentos de hadas hechos realidad. A medida que crecí, mi pasión por la arquitectura solo se fortaleció. Me esforzaba en mis estudios, y en cada... <a href="./paginas/historia.html">Ver mas</a></p>
             </div>
-            <div>prueba git</div>
         </section>
 
     </main>
