@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../Imagenes/edificio-moderno-de-una-casa.png" type="image/x-icon">
+    <title>Contacto-Julio Cesar Nieto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo_texto">
+            <a href="../index.html">
+                <img class="logo" src="../Imagenes/edificio-moderno-de-una-casa.png" alt="logoDeCasa">
+                    
+            </a>
+            <a href="../index.html" class="encabezado__nav">
+                <h2>Arq. Julio Cesar Nieto</h2>
+            </a>
+        </div>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./historia.html">Historia</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./servicio.html">Servicio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./Portfolio.html">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main id="contacto"> <!-- contenido principal-->
+        <div class="caja_contacto">    
+            <div class="caja_imagen">
+                <img class="imagen_form"src="../Imagenes/imagen contacto.jpg" alt="fotoLiving" >
+            </div>
+                <!--Formulario -->
+            <div class="caja_form">
+                <form  action="procesar.php" method="post">
+                    
+                    <!-- imput nombre-->
+                    <div>
+                        <h2 class="encabezado_form">Envia tu consulta</h2>
+                    </div>
+                    <div class="items_form">
+                        <label for="nombre">Nombre</label>
+                        <br>
+                            <!-- indica que campo se esta completando-->
+                        <input  class="input_form" type="text" name="nombre"  placeholder="Gonzalo" required>
+                    </div>
+                    
+                    <div class="items_form">
+                    <!-- imput EMAIL -->
+                        <label for="email">Correo electronico</label> <!-- indica que campo se esta completando-->
+                        <br>
+                        <input class="input_form" type="email" name="email" placeholder="Juan12@gmail.com" required>
+                    </div>
+                    <div class="items_form">
+                        <!-- input telefono -->
+                        <label for="telefono">Telefono/Celular</label>
+                        <br>
+                        <input class="input_form" type="number" name="telefono" placeholder="3515456998" required >
+                    </div>
+                    
+                    <div class="items_form">
+                    <!-- radio-->
+                        <h3>¿Contas con un terreno propio?</h3>
+                        <label for="terreno">Si</label>
+                        <input class="input_form" type="radio" name="terreno" value="si">
+                        
+                        <label for="terreno">No</label>
+                        <input class="input_form" type="radio" name="terreno" value="no">
+                    </div>
+                    
+                    <!--textarea-->
+                    <div class="items_form">
+                        <h3>Mensaje</h3>
+                        <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <!-- botones enviar y reset -->
+                    <div class="items_form">
+                        <button class="boton_form" type="submit">Enviar</button>
+                        <button class="boton_form" type="reset">Limpiar datos</button>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </main>
+    
+    
+    
+    <footer>
+        <div class="footer_texto">
+            <p> &copy; Julio Cesar Nieto 2023 - Todos los derechos reservados</p> 
+        </div>
+        <div class="footer_logos">
+            <div>
+                <img class="footer_logo" src="../Imagenes/facebook.png" alt="logo facebook" >
+            </div>
+            <div> 
+                <img class="footer_logo" src="../Imagenes/gmail.png" alt="logo gmail">
+            </div>
+            <div>
+                <img class="footer_logo" src="../Imagenes/instagram.png" alt="logo instagram" >
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
