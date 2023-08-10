@@ -27,7 +27,9 @@ header{
     text-decoration: none;
     color: white;
 }
-
+.encabezado_nav:hover{
+    color:white;
+}
 .logo{
     width: 100px;
     margin: 0 20px 0 20px
@@ -65,6 +67,7 @@ ul li a:hover{
     border-radius: 5px;
     font-size: 18px;
 }
+
 
 /* fin flebox nav */
 
