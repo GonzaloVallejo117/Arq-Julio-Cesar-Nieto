@@ -73,16 +73,7 @@ ul li a:hover{
 
 
 /* INDEX */
-/* .main_index{
-    /* height: /* 725px */
 
-/* .carrusel{
-    display: flex;
-    justify-content: space-around;
-    background-color: #d4d4d4;
-    height: 500px;
-    align-items: center;
-}*/
 
 
 .intro_historia{
@@ -210,6 +201,7 @@ footer{
 
 
 /* fin historia */
+
 /* servicios */
 
 #main_servicio{
@@ -227,19 +219,20 @@ footer{
     align-items: center;
     background-color: #ececec;
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 .texto_presentacion_servicio{
+    font-size: 1.5rem;
     text-align:center;
-    padding: 100px;
-}
+    padding: 45px;
+    }
 .caja{
     padding: 30px;
     display: flex;
     justify-content:space-around;
     align-items: center;
     font-size: 1.2rem;
-    text-align: left;
+    text-align: justify;
     
 }
 .caja.a > div{
