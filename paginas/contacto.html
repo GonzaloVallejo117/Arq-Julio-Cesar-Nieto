@@ -42,11 +42,8 @@
         </nav>
     </header>    
 
-    <main id="contacto"> <!-- contenido principal-->
-        <div class="caja_contacto">    
-            <div class="caja_imagen">
-                <img class="imagen_form"src="../Imagenes/imagen contacto.jpg" alt="fotoLiving" >
-            </div>
+    <main id="contacto"> <!-- contenido principal-->  
+        <div class="caja_contacto">
                 <!--Formulario -->
             <div class="caja_form">
                 <form  action="procesar.php" method="post">
@@ -77,7 +74,7 @@
                     
                     <div class="items_form">
                     <!-- radio-->
-                        <h3>¿Contas con un terreno propio?</h3>
+                        <h3 class="encabezado_pregunta">¿Contas con un terreno propio?</h3>
                         <label for="terreno">Si</label>
                         <input class="input_form" type="radio" name="terreno" value="si">
                         
@@ -91,13 +88,13 @@
                         <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
                     </div>
                     <!-- botones enviar y reset -->
-                    <div class="items_form">
+                    <div>
                         <button class="boton_form" type="submit">Enviar</button>
                         <button class="boton_form" type="reset">Limpiar datos</button>
                     </div>
                 </form>
             </div>
-        </div>        
+        </div>           
     </main>
     
     
