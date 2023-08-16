@@ -21,8 +21,6 @@ header {
   margin: 5px;
 }
 
-
-
 ul li a:hover {
   background-color: #00000052;
   transition: 0.5s ease all;
@@ -327,22 +325,6 @@ form {
   /* footer */
   footer {
     text-align: center;
-  }
-  /* navbar */
-  .logo {
-    width: 80px;
-    margin: 0 20px 0 20px;
-  }
-  .encabezado_nav {
-    display: none;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: auto;
-    margin-right: auto;
   }
   /* servicios */
   .caja_presentacion_servicio {
