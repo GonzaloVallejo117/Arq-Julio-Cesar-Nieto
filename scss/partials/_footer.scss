@@ -1,0 +1,24 @@
+footer{
+    background-color: #757575;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100px;
+    align-items: center;
+    
+    .footer_texto{
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer_logos{
+        display: flex;
+        align-items: center;
+        
+        .footer_logo{
+            width: 35px;
+            height: 35px;
+            margin: 10px;
+        }
+    }
+
+}
