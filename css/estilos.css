@@ -33,7 +33,7 @@ header .navbar #navbarNav .navbar-nav .nav-item a:hover {
 }
 
 .intro_historia {
-  background-color: #a5a5a5;
+  background-color: #d4d4d4;
   padding: 50px;
   color: black;
   text-align: justify;
@@ -131,7 +131,7 @@ footer .footer_logos .footer_logo {
 }
 #contacto .caja_contacto .caja_form form .boton_form {
   width: auto;
-  height: 40px;
+  height: auto;
   background-color: #000;
   color: white;
   border-radius: 5px;
@@ -142,7 +142,6 @@ footer .footer_logos .footer_logo {
   transition: 0.5s ease all;
   padding: 10px;
   border-radius: 5px;
-  text-decoration: underline;
 }
 
 .encabezado_slider {

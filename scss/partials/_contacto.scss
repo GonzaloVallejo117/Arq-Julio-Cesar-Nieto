@@ -1,7 +1,7 @@
 #contacto{
     width: 100%;
     height: 730px;
-    background-color: #d4d4d4;
+    background-color: $color-secundario;
     
     .caja_contacto{
         display: flex;
@@ -63,7 +63,7 @@
                 
                 .boton_form{
                     width: auto;
-                    height: 40px;
+                    height: auto;
                     background-color: #000;
                     color: white;
                     border-radius: 5px;
@@ -74,7 +74,6 @@
                         transition: 0.5s ease all ;
                         padding: 10px;
                         border-radius: 5px;
-                        text-decoration: underline;
                     }
                 }    
             }
