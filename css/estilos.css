@@ -145,6 +145,7 @@ footer .footer_logos .footer_logo {
 }
 
 .contenedor-padre {
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -215,7 +216,10 @@ footer .footer_logos .footer_logo {
 }
 
 #main_servicio {
-  width: 1000px;
+  background-color: #ececec;
+}
+#main_servicio .conteiner-servicio {
+  width: 70%;
   height: auto;
   display: flex;
   margin: auto;
@@ -223,7 +227,7 @@ footer .footer_logos .footer_logo {
   align-items: center;
   flex-direction: column;
 }
-#main_servicio .caja {
+#main_servicio .conteiner-servicio .caja {
   padding: 30px;
   display: flex;
   justify-content: space-around;
@@ -231,95 +235,98 @@ footer .footer_logos .footer_logo {
   font-size: 1.2rem;
   text-align: justify;
 }
-#main_servicio .caja .caja_a_parrafo {
+#main_servicio .conteiner-servicio .caja .caja_a_parrafo {
   padding: 10px;
 }
-#main_servicio .caja .caja_a_imagen {
+#main_servicio .conteiner-servicio .caja .caja_a_imagen {
   width: 300px;
   border-radius: 5px;
 }
-#main_servicio .caja .caja_b_parrafo {
+#main_servicio .conteiner-servicio .caja .caja_b_parrafo {
   padding: 10px;
 }
-#main_servicio .caja .caja_b_imagen {
+#main_servicio .conteiner-servicio .caja .caja_b_imagen {
   width: 300px;
   border-radius: 5px;
 }
-#main_servicio .caja.g {
+#main_servicio .conteiner-servicio .caja.g {
   width: 100%;
   height: auto;
 }
-#main_servicio .caja.g .caja_g_iframe {
+#main_servicio .conteiner-servicio .caja.g .caja_g_iframe {
   padding: auto;
   width: 100%;
   height: 350px;
 }
 
-.conteiner {
+#main_historia {
+  background-color: #ececec;
+}
+#main_historia .conteiner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 0.5fr);
   grid-template-areas: "caja1 caja2 caja2" "caja3 caja3 caja3" "caja5 caja5 caja4" "caja5 caja5 caja4" "caja7 caja6 caja6" "caja7 caja8 caja8";
   width: 70%;
   height: 100%;
-  margin: 40px auto 40px;
+  margin: auto;
   font-size: 18px;
 }
-.conteiner .caja1 {
+#main_historia .conteiner .caja1 {
   grid-area: caja1;
   margin: 10px;
 }
-.conteiner .caja1 .caja1_img {
+#main_historia .conteiner .caja1 .caja1_img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
-.conteiner .caja2 {
+#main_historia .conteiner .caja2 {
   grid-area: caja2;
   line-height: 30px;
   text-align: justify;
   align-self: center;
 }
-.conteiner .caja3 {
+#main_historia .conteiner .caja3 {
   grid-area: caja3;
   margin: 10px;
   align-self: center;
   text-align: justify;
   line-height: 30px;
 }
-.conteiner .caja4 {
+#main_historia .conteiner .caja4 {
   grid-area: caja4;
   margin: 10px;
 }
-.conteiner .caja4 .caja4_img {
+#main_historia .conteiner .caja4 .caja4_img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
-.conteiner .caja5 {
+#main_historia .conteiner .caja5 {
   grid-area: caja5;
   align-self: center;
   margin: 10px;
   line-height: 35px;
   text-align: justify;
 }
-.conteiner .caja6 {
+#main_historia .conteiner .caja6 {
   grid-area: caja6;
   margin: 10px;
   align-self: center;
   text-align: justify;
   line-height: 30px;
 }
-.conteiner .caja7 {
+#main_historia .conteiner .caja7 {
   grid-area: caja7;
   margin: 10px;
 }
-.conteiner .caja7 .caja7_img {
+#main_historia .conteiner .caja7 .caja7_img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
-.conteiner .caja8 {
+#main_historia .conteiner .caja8 {
   grid-area: caja8;
   margin: 10px;
   align-self: center;
@@ -329,9 +336,6 @@ footer .footer_logos .footer_logo {
 
 @media screen and (max-width: 480px) {
   /* formulario */
-  .items_form {
-    margin: 5px;
-  }
   /* footer */
   footer {
     text-align: center;
