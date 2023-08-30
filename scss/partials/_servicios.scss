@@ -15,6 +15,15 @@
 
 #main_servicio{
     background-color: $color-principal;
+    @include mobile{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
     .conteiner-servicio{
         width: 70%;
         height: auto;
@@ -30,6 +39,15 @@
             align-items: center;
             font-size: 1.2rem;
             text-align: justify;
+            @include mobile{
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-around;
+                    align-items: center;
+                    font-size: 1rem;
+                    text-align: justify;
+            }
             .caja_a_parrafo{
                 padding: 10px;
             }

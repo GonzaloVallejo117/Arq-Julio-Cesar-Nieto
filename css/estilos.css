@@ -2,13 +2,6 @@
   font-family: "fuente_principal";
   src: url(../fonts/Roboto-Regular.ttf);
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "fuente_principal", sans-serif;
-}
-
 header {
   display: flex;
   background-color: #757575;
@@ -54,6 +47,11 @@ footer {
   justify-content: space-around;
   min-height: 100px;
   align-items: center;
+}
+@media screen and (max-width: 480px) {
+  footer {
+    text-align: center;
+  }
 }
 footer .footer_texto {
   display: flex;
@@ -218,6 +216,17 @@ footer .footer_logos .footer_logo {
 #main_servicio {
   background-color: #ececec;
 }
+@media screen and (max-width: 480px) {
+  #main_servicio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #main_servicio .conteiner-servicio {
   width: 70%;
   height: auto;
@@ -234,6 +243,17 @@ footer .footer_logos .footer_logo {
   align-items: center;
   font-size: 1.2rem;
   text-align: justify;
+}
+@media screen and (max-width: 480px) {
+  #main_servicio .conteiner-servicio .caja {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    text-align: justify;
+  }
 }
 #main_servicio .conteiner-servicio .caja .caja_a_parrafo {
   padding: 10px;
@@ -272,6 +292,13 @@ footer .footer_logos .footer_logo {
   margin: auto;
   font-size: 18px;
 }
+@media screen and (max-width: 480px) {
+  #main_historia .conteiner {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6" "caja7" "caja8";
+  }
+}
 #main_historia .conteiner .caja1 {
   grid-area: caja1;
   margin: 10px;
@@ -286,6 +313,7 @@ footer .footer_logos .footer_logo {
   line-height: 30px;
   text-align: justify;
   align-self: center;
+  margin: 10px;
 }
 #main_historia .conteiner .caja3 {
   grid-area: caja3;
@@ -334,87 +362,11 @@ footer .footer_logos .footer_logo {
   line-height: 30px;
 }
 
-@media screen and (max-width: 480px) {
-  /* formulario */
-  /* footer */
-  footer {
-    text-align: center;
-  }
-  /* servicios */
-  .caja_presentacion_servicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ececec;
-    width: 100%;
-    height: auto;
-  }
-  .texto_presentacion_servicio {
-    text-align: center;
-    padding: 30px;
-    font-size: 16px;
-  }
-  #main_servicio {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .caja {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1rem;
-    text-align: justify;
-  }
-  /* historia */
-  .conteiner {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, auto);
-    grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6" "caja7" "caja8";
-    width: 70%;
-    height: auto;
-    margin: 40px auto 40px;
-    font-size: 16px;
-  }
-  .caja1 {
-    grid-area: caja1;
-  }
-  .caja1_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-  }
-  .caja2 {
-    grid-area: caja2;
-    line-height: 30px;
-    text-align: justify;
-    align-self: center;
-    margin: 10px;
-  }
-  .caja3 {
-    grid-area: caja3;
-    margin: 10px;
-    align-self: center;
-    text-align: justify;
-    line-height: 30px;
-  }
-  .caja4 {
-    grid-area: caja4;
-    margin: 10px;
-  }
-  .caja4_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-  }
-  /* porfolio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "fuente_principal", sans-serif;
 }
 
 /*# sourceMappingURL=estilos.css.map */

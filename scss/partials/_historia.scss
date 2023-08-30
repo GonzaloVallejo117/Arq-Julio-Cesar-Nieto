@@ -16,10 +16,23 @@
         height: 100%;
         margin: auto;
         font-size: 18px;
+        @include mobile{
+            grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(8, auto);
+        grid-template-areas: 
+            "caja1" 
+            "caja2"
+            "caja3"
+            "caja4"
+            "caja5"
+            "caja6"
+            "caja7"
+            "caja8";
+        }
         .caja1{
             grid-area: caja1;
             margin: 10px;
-            
+
             .caja1_img{
                 width: 100%;
                 height: 100%;
@@ -31,6 +44,8 @@
             line-height: 30px;
             text-align: justify;
             align-self: center;
+            margin: 10px;
+            
         }
         .caja3{
             grid-area: caja3;
@@ -42,7 +57,7 @@
         .caja4{
             grid-area: caja4;
             margin: 10px;
-            
+
             .caja4_img{
                 width: 100%;
                 height: 100%;
@@ -55,7 +70,7 @@
             margin: 10px;
             line-height: 35px;
             text-align: justify;
-        }
+            }
         .caja6{
             grid-area: caja6;
             margin: 10px;
@@ -66,7 +81,6 @@
         .caja7{
             grid-area: caja7;
             margin: 10px;
-            
             .caja7_img{
                 width: 100%;
                 height: 100%;

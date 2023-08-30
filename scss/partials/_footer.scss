@@ -4,7 +4,9 @@ footer{
     justify-content: space-around;
     min-height: 100px;
     align-items: center;
-    
+    @include mobile{
+        text-align: center;
+    }
     .footer_texto{
         display: flex;
         align-items: center;
