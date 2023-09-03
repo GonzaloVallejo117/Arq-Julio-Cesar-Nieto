@@ -39,6 +39,8 @@
             align-items: center;
             font-size: 1.2rem;
             text-align: justify;
+            margin: 30px 0 30px 0;
+            /* animacion */
             @include mobile{
                     padding: 30px;
                     display: flex;
@@ -46,21 +48,26 @@
                     justify-content:space-around;
                     align-items: center;
                     font-size: 1rem;
-                    text-align: justify;
+                    text-align: justify
             }
-            .caja_a_parrafo{
-                padding: 10px;
+            &.a{
+
+                .caja_a_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_a_imagen{
+                    width: 300px;
+                    border-radius: 5px;
+                }
             }
-            .caja_a_imagen{
-                width: 300px;
-                border-radius: 5px;
-            }
-            .caja_b_parrafo{
-                padding: 10px;
-            }
-            .caja_b_imagen{
-                width: 300px;
-                border-radius: 5px;
+            &.b{
+                .caja_b_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_b_imagen{
+                    width: 300px;
+                    border-radius: 5px;
+                }
             }
             &.g{
                 width: 100%;

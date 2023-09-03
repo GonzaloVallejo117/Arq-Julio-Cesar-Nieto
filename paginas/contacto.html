@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../librerias/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../Imagenes/edificio-moderno-de-una-casa.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="keywords" content="Arquitecto,Obras,Construcción,Casas,Edificios,Planos,Diseño,Vivienda,Renovaciones,Presupuesto,Consultas">
     <meta name="description" content="Si tienes alguna pregunta, idea o proyecto en mente, no dudes en ponerte en contacto con nosotros.">
     <title>Julio Cesar Nieto - Contacto</title>
@@ -54,30 +55,30 @@
                 <form  action="procesar.php" method="post">
                     
                     <!-- imput nombre-->
-                    <div>
+                    <div data-aos="fade-down" data-aos-duration="200">
                         <h2 class="encabezado_form">Envia tu consulta</h2>
                     </div>
-                    <div class="items_form">
+                    <div class="items_form" data-aos="fade-down" data-aos-duration="600">
                         <label for="nombre">Nombre</label>
                         <br>
                             <!-- indica que campo se esta completando-->
                         <input  class="input_form" type="text" name="nombre"  placeholder="Gonzalo" required>
                     </div>
                     
-                    <div class="items_form">
+                    <div class="items_form"data-aos="fade-down" data-aos-duration="800">
                     <!-- imput EMAIL -->
                         <label for="email">Correo electronico</label> <!-- indica que campo se esta completando-->
                         <br>
                         <input class="input_form" type="email" name="email" placeholder="Juan12@gmail.com" required>
                     </div>
-                    <div class="items_form">
+                    <div class="items_form"data-aos="fade-down" data-aos-duration="1000">
                         <!-- input telefono -->
                         <label for="telefono">Telefono/Celular</label>
                         <br>
                         <input class="input_form" type="number" name="telefono" placeholder="3515456998" required >
                     </div>
                     
-                    <div class="items_form">
+                    <div class="items_form"data-aos="fade-down" data-aos-duration="1200">
                     <!-- radio-->
                         <h3 class="encabezado_pregunta">¿Contas con un terreno propio?</h3>
                         <label for="terreno">Si</label>
@@ -88,7 +89,7 @@
                     </div>
                     
                     <!--textarea-->
-                    <div class="items_form">
+                    <div class="items_form"data-aos="fade-down" data-aos-duration="1400">
                         <h3>Mensaje</h3>
                         <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
                     </div>
@@ -99,9 +100,7 @@
                     </div>
                 </form>
             </div>
-        </div>
-        <!-- JS bootstrap -->
-    <script src="../librerias/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>      
+        </div>      
     </main>
     
     
@@ -122,6 +121,13 @@
             </div>
         </div>
     </footer>
+    <!-- JS bootstrap -->
+    <script src="../librerias/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

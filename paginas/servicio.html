@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../librerias/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../Imagenes/edificio-moderno-de-una-casa.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="keywords" content="Arquitecto,Obras,Construcción,Casas,Edificios,Planos,Diseño,Vivienda,Renovaciones,Servicios">
     <meta name="description" content="Acá te comento los servicios que puedo ofrecerte para tu proyecto.">
     <title>Julio Cesar Nieto - Servicio</title>
@@ -52,7 +53,7 @@
     </div>
     <main id="main_servicio">
         <div class="conteiner-servicio">
-            <div class="caja a">
+            <div class="caja a" data-aos="fade-right" data-aos-duration="1000">
                 <div class="caja_a_parrafo">
                     <h3> Diseño Arquitectónico a medida</h3>
                     <br>
@@ -64,7 +65,7 @@
                 </div>    
             </div>
 
-            <div class="caja b">
+            <div class="caja b" data-aos="fade-left" data-aos-duration="1000">
                 <div class="caja_b_parrafo">
                     <h3>Diseño Interior con pasión</h3> 
                     <br>
@@ -74,14 +75,14 @@
                     <img class="caja_b_imagen" src="../Imagenes/casa_diseñoInterior.jpg" alt="diseñoInterior" >
                 </div>
             </div>
-            <div class="caja c">
+            <div class="caja c" data-aos="fade-right" data-aos-duration="1000">
                 <div>
                     <h3>Hogares para toda la vida</h3>
                     <br>
                     <p >En el ámbito residencial, mi objetivo es diseñar hogares que crezcan contigo y tu familia. Desde viviendas unifamiliares hasta comunidades residenciales, considero la funcionalidad a largo plazo y la adaptabilidad para asegurar que tu hogar siga siendo perfecto a lo largo del tiempo.</p>
                 </div>
             </div>
-            <div class="caja d">
+            <div class="caja d" data-aos="fade-left" data-aos-duration="1000">
                 <div>
                     <h3>Espacios comerciales que cautivan</h3>
                     <br>
@@ -89,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="caja e">
+            <div class="caja e" data-aos="fade-right" data-aos-duration="1000">
                 <div>
                     <h3>Gestión integral de proyectos</h3>
                     <br>
@@ -97,20 +98,19 @@
                     </p>
                 </div>    
             </div>
-            <div class="caja f">
+            <div class="caja f" data-aos="fade-left" data-aos-duration="1000">
                 <div>
                     <h3>Visualización en 3D para una visión clara</h3>
                     <br>
                     <p >Utilizando tecnología avanzada, te proporcionaré representaciones en 3D para que puedas visualizar tu proyecto en detalle antes de que comience la construcción. Esta herramienta te permitirá tomar decisiones informadas y ajustar los detalles a tu gusto.</p>
                 </div>
             </div>
-            <div class="caja g">
+            <div class="caja g" data-aos="fade-right" data-aos-duration="1000">
                 <iframe class="caja_g_iframe" src="https://www.youtube.com/embed/Sjte3h2-D40?start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>        
         
         </div>
-        <!-- JS bootstrap -->
-        <script src="../librerias/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+        
     </main>
 
 
@@ -132,5 +132,12 @@
             </div>
         </div>
     </footer>
+    <!-- JS bootstrap -->
+    <script src="../librerias/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

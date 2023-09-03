@@ -37,6 +37,7 @@
                 height:auto;
                 margin: 20px;
                 .imagenes-tarjetas{
+                    transition: transform .7s;
                     &:hover{
                         box-shadow: 5px 10px 10px 0 rgb(82, 81, 81);
                         transform: scale(1.09);
