@@ -1,6 +1,6 @@
 @font-face {
   font-family: "fuente_principal";
-  src: url(../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/);
 }
 header {
   display: flex;
@@ -286,6 +286,35 @@ footer .footer_logos .footer_logo {
   padding-right: 20px;
 }
 #main_servicio .conteiner-servicio .caja.b .caja_b_imagen {
+  width: 300px;
+  border-radius: 5px;
+}
+#main_servicio .conteiner-servicio .caja.c .caja_c_parrafo {
+  padding-right: 20px;
+}
+#main_servicio .conteiner-servicio .caja.c .caja_c_imagen {
+  width: 300px;
+  border-radius: 5px;
+}
+#main_servicio .conteiner-servicio .caja.d .caja_d_parrafo {
+  padding-right: 20px;
+}
+#main_servicio .conteiner-servicio .caja.d .caja_d_imagen {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+#main_servicio .conteiner-servicio .caja.e .caja_e_parrafo {
+  padding-right: 20px;
+}
+#main_servicio .conteiner-servicio .caja.e .caja_e_imagen {
+  width: 300px;
+  border-radius: 5px;
+}
+#main_servicio .conteiner-servicio .caja.f .caja_f_parrafo {
+  padding-right: 20px;
+}
+#main_servicio .conteiner-servicio .caja.f .caja_f_imagen {
   width: 300px;
   border-radius: 5px;
 }

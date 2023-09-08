@@ -48,7 +48,8 @@
                     justify-content:space-around;
                     align-items: center;
                     font-size: 1rem;
-                    text-align: justify
+                    text-align: justify;
+                    
             }
             &.a{
 
@@ -65,6 +66,43 @@
                     padding-right: 20px;
                 }
                 .caja_b_imagen{
+                    width: 300px;
+                    border-radius: 5px;
+                }
+            }
+            &.c{
+                .caja_c_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_c_imagen{
+                    width: 300px;
+                    border-radius: 5px;
+                }
+            }
+            &.d{
+                .caja_d_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_d_imagen{
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 5px;
+                }
+            }
+            &.e{
+                .caja_e_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_e_imagen{
+                    width: 300px;
+                    border-radius: 5px;
+                }
+            }
+            &.f{
+                .caja_f_parrafo{
+                    padding-right: 20px;
+                }
+                .caja_f_imagen{
                     width: 300px;
                     border-radius: 5px;
                 }
